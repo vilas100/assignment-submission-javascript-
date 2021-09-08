@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+     <head>
+      </head>
+<body>
+    <script>
+             var n1=10
+             var n2=30
+           
+             Sum = n1+n2
+             Prod = n1*n2
+             Diff = n2-n1
+             Div = n1/n2
+             Mod = n1%n2
+             console.log('sum is'+Sum)
+             console.log('Product is'+Prod)
+             console.log('difference is'+Diff)
+             console.log('sum is'+Sum)
+             console.log('quotient is'+Div)
+             console.log('remainder is'+Mod)
+             console.log(n1<n2)
+             console.log(n2>n1)
+             console.log(n2<=n1)
+             console.log(n1>=n2)
+             console.log(n1==n2)
+             console.log(n1!=n2)
+             console.log(n1+=n2)
+             console.log(n2-=n1)
+             console.log(n2*=n1)
+             console.log(n1/=n2)
+             console.log(n1%=n2)
+             console.log(n1===n2) 
+             console.log(n1!==n2) 
+             console.log(n1>n2 && n1<n2)
+             console.log(n1<n2 || n1>n2)
+             console.log(!false)
+             console.log(n1=++n2)
+             console.log(n1=--n2)
+             console.log(n1=n2++)
+             console.log(n1=n2--)
+             console.log(n1>n2 ? n1:n2)
+       </script>
+   </body>
+</html>
+
+
+          
+            
+  
+           
+
+            
+            
+
+              
+   
