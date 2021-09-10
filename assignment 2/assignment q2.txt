@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+     <head>
+       <title>Array</title>
+      </head>
+<body>
+    <script>
+           let arr = [mangalore,mumbai, bangalore,delhi,   chennai]
+           For (let i=arr.length; i<=arr.length ; i--){
+                   console.log(arr[i])
+                   }     
+       </script>
+   </body>
+</html>
+
