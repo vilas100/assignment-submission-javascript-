@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Scheduler</title>
+	 <style>
+	     {
+		   margin: 0px;
+		   padding: 0px;
+		  }
+		  
+		  .container{
+		         padding: 50px;
+				 display: flex;
+				 flex-direction:column;
+				 justify-content: center;
+				 align-items: center;
+				 }
+		    button{
+			     padding-top: 12px;
+				 padding: 30%
+				 margin-top: 20px;
+				 margin-bottom: 20px;
+				 font-size: 20p;
+				 text-transform: uppercase;
+				 }
+				 input{
+				    width: 50%;
+					height: 50px
+					text-indent: 20px;
+					font-size:20px;
+					border- radius: 10px;
+					outline:none;
+					border: 1px solid grey;
+					}
+					
+					.two{
+					    padding-top: 50px;
+						padding-bottom: 50px;
+						width: 400px;
+						}
+						
+						.todo{
+						   padding-top:10px;
+						   padding-bottom:10px;
+						   text-indent: 20px;
+						   margin: 10px;
+						   font-size: 25px;
+						   font-weight: normal;
+						   font-family:segoe UI;
+						   box-shadow: 0 0 2px gray;
+						   border-radius: 10px;
+						   }
+	 </style>
+	</head>
+  </body>
+        
+		<div class="container">
+		   <input type="text" placeholder="Task..." id="inp">
+		   <button onclick="addTask()">Schedule</button>
+		   <button onclick="changeColor()">Change Color</button>
+		   <div id="two" class="two">
+
+            </div>
+			 <script src="scheduler.js"></script>
+  
+     </body>
+  </html>
